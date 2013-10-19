@@ -227,18 +227,30 @@ a:focus {
     letter-spacing: -1px;
 }
 
-.slide q {
+.slide q, h1 {
     display: block;
-    font-size: 50px;
-    line-height: 72px;
-
-    margin-top: 100px;
+    font-size: 45px;
+    line-height: 45px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .slide q strong {
     white-space: nowrap;
 }
 
+.slide p {
+    padding-top: 20px;
+    line-height: 25px;
+}
+
+.slide small {
+    font-size: 70%;
+}
+
+.center {
+    text-align: center;
+}
 /*
     And now we start to style each step separately.
 
