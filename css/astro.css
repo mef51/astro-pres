@@ -231,7 +231,7 @@ a:focus {
     display: block;
     font-size: 45px;
     line-height: 45px;
-    margin-top: 30px;
+    margin-top: 0px;
     margin-bottom: 30px;
 }
 
@@ -240,12 +240,18 @@ a:focus {
 }
 
 .slide p {
-    padding-top: 20px;
+    padding-top: 10px;
     line-height: 25px;
 }
 
 .slide small {
     font-size: 70%;
+}
+
+#title-img {
+    margin: 0 auto;
+    padding: 10px;
+    display: block;
 }
 
 .center {
