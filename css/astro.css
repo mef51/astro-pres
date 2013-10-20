@@ -104,24 +104,25 @@ i, em { font-style: italic }
     ... and give links a nice look.
 */
 a {
-    color: inherit;
+    color: white;
     text-decoration: none;
     padding: 0 0.1em;
-    background: rgba(255,255,255,0.5);
-    text-shadow: -1px -1px 2px rgba(100,100,100,0.9);
+    background: rgba(0,0,0,0.5);
+    /*text-shadow: -1px -1px 2px rgba(100,100,100,0.9);*/
     border-radius: 0.2em;
 
-    -webkit-transition: 0.5s;
-    -moz-transition:    0.5s;
-    -ms-transition:     0.5s;
-    -o-transition:      0.5s;
-    transition:         0.5s;
+    -webkit-transition: 0.3s;
+    -moz-transition:    0.3s;
+    -ms-transition:     0.3s;
+    -o-transition:      0.3s;
+    transition:         0.3s;
 }
 
 a:hover,
 a:focus {
-    background: rgba(255,255,255,1);
-    text-shadow: -1px -1px 2px rgba(100,100,100,0.5);
+    background: rgba(0,0,0,0.1);
+    /*text-shadow: -1px -1px 2px rgba(100,100,100,0.5);*/
+    color: rgba(0, 0, 0, 0.5);
 }
 
 /*
@@ -248,14 +249,28 @@ a:focus {
     font-size: 70%;
 }
 
-#title-img {
+.slide .source {
+    font-size: 50%;
+    line-height: 0px;
+}
+
+.image {
     margin: 0 auto;
     padding: 10px;
     display: block;
+    padding-bottom: 0px;
 }
 
 .center {
     text-align: center;
+}
+
+#slide3 #defn {
+    line-height: 25px;
+    width: 95%;
+    font-size: 25px;
+    text-align: left;
+    float: right;
 }
 /*
     And now we start to style each step separately.
