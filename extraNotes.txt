@@ -1,0 +1,14 @@
+*** FIGURE 1
+This EPIC/pn image of NGC 6553 shows the 43 sources detected on the pn camera. The small and large dashed circles, respectively, represent the half-mass (rHM = 1.'55) and tidal radii (rt = 8.'16). A log gray scale has been used for the image due to the brightness of source 1. In this figure, north is up and R.A. increases to the left. The candidate qLMXB detected in this GC is the source 3, corresponding to XMMU J180916–255425.
+
+*** FIGURE 2
+XMM-pn spectrum of the candidate qLMXB XMMU J180916–255425 in NGC 6553. The two components (H-atmosphere nsatmos and PL) are shown in dashed lines. They are both affected by interstellar absorption modeled with wabs and the hydrogen column density NH,22 = 0.35. The PL dominates the spectrum at E >= 2keV
+
+*** TABLE 1 X-ray Sources Detected in the XMM Observation of NGC 6553
+a: Statistical uncertainty on the position.
+b: Detection significance provided by wavdetect.
+
+*** TABLE 3 Spectral Analysis of the Core Candidate qLMXB
+Notes. In all the fits, the galactic absorption, modeled with wabs, is represented by a fixed value of NH,22=0.35. Gamma represents the photon index of the power-law (PL) model. Fx is the total unabsorbed flux, in units of 10^-13 erg cm^-2 s^-1, in the range 0.5-10 keV, with 1sigma errors. PL Flux (%) represents the PL contribution to the total flux (1sigma errors).
+
+a For the ACIS-S3 spectrum, the powerlaw normalization is set to zero. The multiplication constant, set free for ACIS-S3, is cACIS = 0.85+0.43 – 0.26.
